@@ -23,10 +23,10 @@ def get_data(url):
 
 url = 'https://www.hokkaido-np.co.jp/news/n_economy'
 
-#streamlit for display    
-st.write('''
-        # 北海道新聞[経済]
-        ''')
+# #streamlit for display    
+# st.write('''
+#         # 北海道新聞[経済]
+#         ''')
 
-df = pd.DataFrame({'最新情報':get_data(url)})
-st.dataframe(df)
+# df = pd.DataFrame({'最新情報':get_data(url)})
+# st.dataframe(df)
